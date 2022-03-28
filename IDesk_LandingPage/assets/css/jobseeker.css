@@ -1,0 +1,36 @@
+.container {
+  -webkit-box-shadow: 0 0 10px #eeeeee;
+  box-shadow: 0 0 10px #eeeeee;
+  margin-top: 120px;
+  text-align: center;
+}
+
+.container #image {
+
+}
+.container img {
+  padding: 10px 0 10px 0;
+}
+
+.container p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  padding-top: 15px;
+}
+
+.container h1 {
+  font-weight: 700;
+  color: #28a5ff;
+}
+
+input {
+  width: 420px;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #dddddd;
+  padding-top: 50px;
+}
+input:focus {
+  border-color: #2180fd;
+}

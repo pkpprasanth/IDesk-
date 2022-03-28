@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>InterviewDesk | World's First On-Demand Interviewer Platform</title>
+  <meta name="title" content="InterviewDesk | World's First On-Demand Interviewer Platform"></meta>
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+  <meta name="description" content="Strengthen your hiring strategy with
+                                    InterviewDesk — where hiring and technical
+                                    experts collaborate to refine and hire the
+                                    best talent for your organisation."></meta>
+  <meta name="google-site-verification" content="_dzliYFjI0QEFuwii8TFc0Ke94pHw9sOTJ75sAi_DKE" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon-96x96.png">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato" />
+  <link rel="stylesheet" type="text/css" href="assets/css/index.css" />
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115892114-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-115892114-2');
+  </script>
+  <!-- Javascript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+        // Store hash
+        var hash = this.hash;
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+          window.location.hash = hash;
+        });
+      } // End if
+    });
+  });
+  </script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/images/InterviewDesk_Logo.png"
+               title="InterviewDesk Logo"
+               alt="InterviewDesk Logo"
+          />
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="#services">Our Services</a>
+          </li>
+          <li>
+            <a href="#features">Features</a>
+          </li>
+          <li>
+            <a href="#Testimonials">Testimonials</a>
+          </li>
+          <li>
+            <a href="#contact-us">Contact Us</a>
+          </li>
+          <li>
+            <a href="https://www.blog.interviewdesk.in" target="_blank">Blog</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+  <!-- Slide Navbar -->
+  <div id="navbar-slide">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#slider">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/images/Logo_For_Slider.png"
+               title="InterviewDesk Logo"
+               alt="InterviewDesk Logo"
+          />
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="slider">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="#services">Our Services</a>
+          </li>
+          <li>
+            <a href="#features">Features</a>
+          </li>
+          <li>
+            <a href="#Testimonials">Testimonials</a>
+          </li>
+          <li>
+            <a href="#contact-us">Contact Us</a>
+          </li>
+          <li>
+            <a href="https://www.blog.interviewdesk.in" target="_blank">Blog</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- End Slide Navbar -->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1>Global on-demand interviewer platform</h1>
+          <p>We are building World's Largest Interviewer Community</p>
+          <a href="Contact Form/index.html" class="btn btn-md" role="button">Send us a Message</a>
+        </div>
+        <div class="col-md-6">
+          <img src="assets/images/On_Demand_Interviewer_Platform.png"
+               alt="On Demand Interviewer Platform"
+               title="On Demand Interviewer Platform"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <section id="clients">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-4 col-xs-6 text-center">
+          <img src="assets/images/clients/Byju.png"
+               title="Byjus"
+               alt="Byjus"
+          />
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-6 text-center">
+          <img src="assets/images/clients/Chargebee.png"
+               title="Chargebee"
+               alt="Chargebee"
+          />
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-6 text-center">
+          <img src="assets/images/clients/thought works.png"
+               title="thought works"
+               alt="thought works" />
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-6 text-center">
+          <img src="assets/images/clients/encore.png"
+               title="Encore"
+               alt="Encore"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 col-sm-4 col-xs-6 text-center">
+          <img src="assets/images/clients/NewAge.png"
+               title="Newage"
+               alt="Newage"
+          />
+        </div>
+        <div class="col-md-3  col-sm-4 col-xs-6 text-center">
+          <img src="assets/images/clients/techno.png" id="technosoft"
+               title="Technosoft"
+               alt="Technosoft"
+          />
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-6 text-center">
+          <img src="assets/images/clients/Ansr.png"
+               title="ANSR"
+               alt="ANSR"
+          />
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-6 text-center" id="viteos">
+          <img src="assets/images/clients/Viteos.png"
+               title="Viteos"
+               alt="Viteos"
+          />
+        </div>
+      </div>
+	  <div class="row">
+		  <div class="col-md-3 col-sm-4 col-xs-6 text-center">
+			  <img src="assets/images/clients/MobSquad.png"
+				   title="MobSquad"
+				   alt="MobSquad"
+			  />
+          </div>
+		  <div class="col-md-3 col-sm-4 col-xs-6 text-center">
+			  <img src="assets/images/clients/CoinSwitch Kuber.png"
+				   title="CoinSwitch Kuber"
+				   alt="CoinSwitch Kuber"
+			  />
+          </div>
+		  <div class="col-md-3 col-sm-4 col-xs-6 text-center">
+			  <img src="assets/images/clients/Blink Health.jpg"
+				   title="Blink Health"
+				   alt="Blink Health"
+			  />
+          </div>
+		  <div class="col-md-3 col-sm-4 col-xs-6 text-center">
+			  <img src="assets/images/clients/Shop Up.png"
+				   title="Shop Up"
+				   alt="Shop Up"
+			  />
+          </div>
+	 </div>
+	 <div class="row">
+		  <div class="col-md-3 col-sm-4 col-xs-6 text-center">
+			  <img src="assets/images/clients/Collabera.png"
+				   title="Collabera"
+				   alt="Collabera"
+			  />
+		   </div>
+		    <div class="col-md-3 col-sm-4 col-xs-6 text-center">
+			  <img src="assets/images/clients/Powerplay.png"
+				   title="Powerplay"
+				   alt="Powerplay"
+			  />
+		   </div>
+		   <div class="col-md-3 col-sm-4 col-xs-6 text-center">
+			  <img src="assets/images/clients/SPI Global.png"
+				   title="SPI Global"
+				   alt="SPI Global"
+			  />
+		   </div>
+		   <div class="col-md-3 col-sm-4 col-xs-6 text-center">
+			  <img src="assets/images/clients/rupeek.png"
+				   title="SPI Global"
+				   alt="SPI Global"
+			  />
+		   </div>
+	  </div>
+	  <div class="row">
+	  <div class="col-md-3 col-sm-4 col-xs-6 text-center">
+			  <img src="assets/images/clients/Glossier.png"
+				   title="Glossier"
+				   alt="Glossier"
+			  />
+		   </div>
+	  <div class="col-md-3 col-sm-4 col-xs-6 text-center">
+			  <img src="assets/images/clients/IVY.png"
+				   title="IVY"
+				   alt="IVY"
+			  />
+		   </div>
+	  <div class="col-md-3 col-sm-4 col-xs-6 text-center">
+			  <img src="assets/images/clients/jubilant foodworks.svg"
+				   title="jubilant foodworks"
+				   alt="jubilant foodworks"
+			  />
+		   </div>
+	   <div class="col-md-3 col-sm-4 col-xs-6 text-center">
+			  <img src="assets/images/clients/tekion-logo.png"
+				   title="tekion-logo"
+				   alt="tekion-logo"
+			  />
+		</div>
+	  </div>
+	  <div class="row">
+		<div class="col-md-3 col-sm-4 col-xs-6 text-center">
+			  <img src="assets/images/clients/Viteos.png"
+				   title="Viteos"
+				   alt="Viteos"
+			  />
+		</div>
+	  </div>
+     </div> 
+	  </div>
+    </div>
+  </section>
+  <!-- About Us -->
+  <section>
+    <div class="container" id="about-us">
+      <h2>Building World's Largest Interviewer Community</h2>
+      <div class="row">
+        <div class="col-md-6 col-sm-12 col-xs-12 text-center">
+          <img src="assets/images/Online_Interviewing_Platform.png"
+               alt="Online Interviewing Platform"
+               title="Online Interviewing Platform"
+          />
+        </div>
+        <div class="col-md-6 col-sm-12 col-xs-12">
+          <p style="text-align:justify">
+            Interviewdesk is world’s leading On Demand Interviewer Platform
+            built to disrupt traditional hiring methods and works on a unique
+            concept of outsourced interviewing. Founded in the year 2017, by an
+            ex Amazonian, Interviewdesk is headquartered in Chennai, Tamil Nadu, India. 
+			With our curated approach, organizations can now save up to 50% of time and cost spent on
+            hiring. In short, we are primarily here to create exceptional
+            interviewing experience for the job seekers, employers as well as
+            the interviewers.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End About Us -->
+  <!-- Services -->
+  <section id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="row">
+        <div class="col-md-4 col-sm-6 text-center">
+          <img src="assets/images/Outsourcing_Job_Interviews.png" id="service1"
+               title="Outsourcing Job Interviews"
+               alt="Outsourcing Job Interviews"
+          />
+          <h3>Interviews Outsourcing</h3>
+          <p>
+            We specialize in carrying out interviews as a service. To make this
+            possible, our team of hand-picked interviewing experts help
+            organizations find the right candidate at the right time.
+          </p>
+        </div>
+        <div class="col-md-4 col-sm-6 text-center">
+          <img src="assets/images/Hire_Skilled_Employees.png" id="service2"
+               title="Hire Skilled Employees"
+               alt="Hire Skilled Employees"
+          />
+          <h3>Pre-assessed Candidates</h3>
+          <p>
+            Finding the best suited candidate is no more a fairytale. We offer
+            pre-assessed candidates, wherein organizations can leverage on ready
+             to be hired bunch of candidates anytime.
+          </p>
+        </div>
+        <div class="col-md-4 col-sm-12 text-center">
+          <img src="assets/images/Talent_Sourcing.png" id="service3"
+               title="Talent Sourcing"
+               alt="Talent Sourcing"
+          />
+          <h3>Talent Sourcing</h3>
+          <p>
+            Consider the countless resumes, companies have to cast their eyes
+            over in order to pick the choicest of them. We have charted out a
+            mechanism wherein our team of experts help you with sourcing the
+            most pertinent resumes.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Services -->
+  <!-- Features -->
+  <section id="features">
+    <div class="container">
+      <h2>Features</h2>
+      <div class="row">
+        <div class="col-md-4 col-sm-6 text-center">
+          <h3>Employers</h3>
+          <p>
+            Acquiring talent is not easy! We are glad to share a different tale
+            here. With the right bandwidth of interviewers across multiple
+            skills, finding your ideal candidate becomes easier and 10X faster.
+          </p>
+        </div>
+        <div class="col-md-4 col-sm-6 text-center">
+          <h3>Jobseekers</h3>
+          <p>
+            Looking for a right platform to get recognized? Here’s your chance
+            to exhibit your talent. Get yourself interviewed by the right
+            experts to earn greater visibility and demand for your profile.
+          </p>
+        </div>
+        <div class="col-md-4 col-sm-12 text-center">
+          <h3>Interviewer</h3>
+          <p>
+            Hey interviewers! Are you passionate about interviewing? We are sure
+            you won’t mind earning little extra in exchange for an hour of
+            yours? Come join us, earn an extra dime and build a brand for
+            yourself.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Features -->
+  <!-- Testimonials -->
+  <section id="Testimonials">
+    <div class="container">
+      <h2>Our Testimonials</h2>
+      <div class="row">
+        <div class="col-6 col-md-4">
+		<div class="card">
+				<img  class="image1" src="assets/images/Testimonials1.png"></img>
+		</div>
+         </div>
+		 <div class="col-6 col-md-4">
+		 <div class="card">
+				<img class="image2" src="assets/images/Testimonials2.png"></img>
+		</div>
+         </div>
+        </div>
+       </div>
+    </div>
+  </section>
+  <!-- End Plans -->
+  <!-- Contact Us -->
+  <section id="contact-us">
+    <h2>Contact Us</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <h3> Send us a message</h3>
+          <div style="width: 100%; height: 471px;">
+		  <form>
+      <div class="dbl-field">
+        <div class="field">
+          <input type="text" name="name" placeholder="Enter your Name" id="name" required >  <sup>*</sup>
+        </div>
+        <div class="field">
+          <input type="text" name="email" placeholder="Enter your Email-ID" id="email" required>  <sup>*</sup>
+        </div>
+      </div>
+      <div class="dbl-field">
+        <div class="field">
+          <input type="text" name="phone" placeholder="Enter your Phone" id="phone">
+        </div>
+        <div class="field">
+          <input type="text" name="website" placeholder="Enter your Website" id="website">
+        </div>
+      </div>
+      <div class="message">
+        <textarea placeholder="Write your Message" name="message" id="message" required></textarea>
+      </div>
+      <div class="button-area">
+        <button type="submit" onclick="sendmail()">Send Message</button>
+        <span></span>
+      </div>
+    </form>
+		  
+		  
+		  
+		  
+		  
+		  </div> 
+		  <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+		  <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=otQQRK&utm_source=typeform.com-12421224-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+        </div>
+        <div class="col-md-6 col-sm-6 hidden-xs">
+          <ul>
+            <li>
+              <i class="fa fa-comments-o" aria-hidden="true"></i>
+              support@interviewdesk.in
+            </li>
+            <li>
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              IDesk Technologies Pvt Ltd<br>
+              &emsp;&emsp;Plot No: 110, Shanthi Nagar,<br>
+              &emsp;&emsp;Perumbakkam, Shollinganallur,<br> 
+			  &emsp;&emsp;Chennai, TN -600100, India.
+            </li>
+            <li>
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              +91-9965224408, +91-9940063635
+            </li>
+            <li>
+              <i class="fa fa-envelope-o" aria-hidden="true"></i>
+              www.interviewdesk.in<br>
+              &emsp;&emsp;&nbsp;admin@interviewdesk.in<br>
+			  &emsp;&emsp;&nbsp;arun@interviewdesk.in
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Us -->
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-6">
+          <ul>
+            <li>
+              <a href="index.html">
+              <img src="assets/images/interviewdesk_interviewer_platform.png"
+                   title="InterviewDesk Interviewer Platform"
+                   alt="InterviewDesk Interviewer Platform"
+              />
+              </a>
+            <li>
+            <li>
+              World&apos;s largest interviewer community of hiring strategists and technical experts.
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <ul>
+            <h4>Who are we?</h4>
+            <li>
+              <a href="#about-us">
+                About Us
+              </a>
+            </li>
+            <li>
+              <a href="https://www.blog.interviewdesk.in" target="_blank">
+                Blog
+              </a>
+            </li>
+            <li>
+              <a href="#contact-us">
+                Contact us
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <ul>
+            <h4>How we work?</h4>
+            <li>
+              <a href="#services">
+                Our Services
+              </a>
+            </li>
+            <li>
+              <a href="#features">
+                Employer
+              </a>
+            </li>
+            <li>
+              <a href="#features">
+                Interviewer
+              </a>
+            </li>
+            <li>
+              <a href="#features">
+                Job Seeker
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <ul>
+            <h4>Follow Us</h4>
+            <a href="https://www.facebook.com/InterviewDesk.in" target="_blank">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="https://twitter.com/interview_desk" target="_blank">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.linkedin.com/company/hunt-&-badge-consulting-pvt-ltd/" target="_blank">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.pinterest.com/interviewdesk" target="_blank">
+              <i class="fa fa-pinterest" aria-hidden="true"></i>
+            </a>
+            <li class="hidden-lg hidden-md hidden-sm visible-xs">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              Plot No: 110, Shanthi Nagar, Perumbakkam, Shollinganallur, Chennai, TN -600100, India
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container">
+      <p>2022  Copyrights @ interviewdesk.in</p>
+    </div>
+  </footer>
+  <!-- End Footer -->
+  <!-- Offer Modal Javascript -->
+  <script>
+    $(window).on('load',function(){
+      var delayMs = 5000; // delay in milliseconds
+      setTimeout(function(){
+          $('#myModal').modal('show');
+        }, delayMs);
+      });
+  </script>
+  <!-- End Offer Modal Javascript -->
+  <!-- Slide Navbar Javascript -->
+  <script>
+  // When the user scrolls down 20px from the top of the document, slide down the navbar
+  window.onscroll = function() {scrollFunction()};
+  function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("navbar-slide").style.top = "0";
+      } else {
+          document.getElementById("navbar-slide").style.top = "-50px";
+      }
+  }
+
+  function sendmail(){
+    var data={
+    email: document.getElementById('email').value,
+    name: document.getElementById('name').value,
+    phone:document.getElementById('phone').value,
+    website:document.getElementById('website').value,
+    message:document.getElementById('message').value
+    }
+    console.log("data",data)
+    let baseurl='http://localhost:5000/api/sendMail';
+    axios.post(baseurl, {data})
+    .then(function (response) {
+    console.log(response);
+  })
+  .catch(function (error) {
+    console.log(error);
+  });
+  }
+
+
+
+  </script>
+  <!-- End Slide Navbar -->
+</body>
+</html>
